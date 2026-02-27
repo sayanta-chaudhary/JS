@@ -1,0 +1,47 @@
+#
+Res :
+Neetcodeio - https://youtu.be/jyol7J1nlp8?si=1TLtBSbG-pxZztdQ
+
+Todo: 
+All programming paradigm ?
+- declarative ?
+- imperative ?
+- concurrent ?
+
+Procedural Programming ?
+Assembly, C, SQL, Bash - Procedural Programming Lang
+
+! Dart - multi-paradigm programming language, PP and OOP
+
+
+Please understand Object-Oriented Programming
+Association, Aggregation, and Composition ?
+
+> Classes    - blueprint  of car
+  Attributes - properties or data     
+  Methods    - behavior   or funtions 
+Ex :
+attributes - color
+methods    - repaint
+
+# 4 Pillller of OOP
+Encapsulation
+> Binding members funtions and members data in a single unit
+Class < Data/Funtions
+  /        / 
+Unit    Encapsulation
+"The best funtions are those with no parameters!" - `Uncle Bob - Robert C Martin`
+
+Abstraction
+Cons : 
+> Providing the essential features without showing background details
+
+Inheritance
+Pros : Eliminate redundant code
+Cons :
+> When a class acquires the feature/properties of another class
+
+Poly-Morphism - बहुruपता
+Many Form
+> Single name multiple forms
+Pros : Refactor ugly switch/case statements

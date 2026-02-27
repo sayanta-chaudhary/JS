@@ -1,0 +1,56 @@
+# 
+https://youtu.be/F1tuoMobTfQ?si=eCU6OyB_oJESwsMx
+https://youtu.be/vP2MNhC_Igw?si=jq7IJizk6Sy9SStA
+
+tanay pratap - https://youtu.be/ehAGlT9DJZ4?si=wp9kMdOmkTHjm1Se
+https://youtu.be/ElsEEBfB8nM?si=Xr4z-tKWC9ZgWuOC
+> Static typed
+c*
+java
+kotlin
+rust
+go
+ts
+
+# VS
+
+> Dynamic typed
+python
+JS - json
+ruby
+php
+lua
+
+
+> Strong typed
+cpp
+java
+kotlin
+rust
+go
+ts
+
+# VS 
+
+> Weak typed
+c
+python
+js
+ruby
+php
+lua
+
+
+> paradigm? oop, procedural?
+> how does memory management work - garbage collected ?
+> compliled or interpreted?
+> webhook pattern?
+> observer pattern of oop?
+> pub-sub pattern of distributed system?
+
+> poll / push?
+websockets ? are generally push based
+
+> http polling?
+> what is grpc?
+https://www.youtube.com/watch?v=jq7ZkSap9ko

@@ -2,7 +2,7 @@ import bcrypt from "bcrypt";
 import express from "express";
 import jwt from "jsonwebtoken";
 const usersRouter = express.Router();
-import User from "../models/user.js";
+import User from "../models/User.js";
 
 const getTokenFrom = (request) => {
   const authorization = request.get("authorization");

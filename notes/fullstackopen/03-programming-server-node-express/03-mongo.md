@@ -18,7 +18,6 @@
   The Jidoka (stop and fix) principle from Toyota Production Systems is very effective in this situation as well
 
 # MongoDB
-- Why mongoose code is async by default?
 - The reason for using Mongo as the database is its lower complexity compared to a relational database
   Document databases diff from relational databases in how they organize data as well as in the query languages they support
   Document databases are usually categorized under the NoSQL umbrella term

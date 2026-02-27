@@ -211,7 +211,7 @@ Ready to deploy on Netlify, Vercel, or Express static
 
 ---
 
-## 13. 🚀 Performance Considerations
+## 13. Performance Considerations
 
 ```
 React.memo()    → Prevent unnecessary re-renders
@@ -223,7 +223,7 @@ React.lazy()    → Load components on demand
 
 ---
 
-## 14. ✨ Event Handling Lifecycle
+## 14. Event Handling Lifecycle
 
 ```
 User interacts (click, input, submit)
@@ -248,8 +248,8 @@ Re-render happens
 ```
 Parent ➔ Child: via props
 Child ➔ Parent: via callback functions
-Siblings → Lift state to common parent
-Deeply nested → useContext (if needed)
+Siblings ➔ Lift state to common parent
+Deeply nested ➔ useContext (if needed)
 ```
 
 ---

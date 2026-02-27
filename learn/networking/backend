@@ -1,0 +1,18 @@
+#
+https://youtu.be/V3ZPPPKEipA?si=Vt_AIF6ks54efy0Y
+https://youtu.be/pnj3Jbho5Ck?si=egK5UxVHEDoVNK0J
+https://youtu.be/6G14NrjekLQ?si=KkCtX8c-a9aDeeEy
+
+Packet: Small piece of data over a network
+Encapsulation: Wrapping data with delivery info (layer by layer) to deliver it correctly
+Sockets
+
+Understand the relationship between tcp & http
+How server use TCP for multiple http requests and responses
+
+How this data exchange is happening?
+- it's just HTTP protocol
+
+
+ssh.socket  👂 = Listens for connections
+ssh.service 🏃 = Runs when someone connects 

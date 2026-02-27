@@ -1,9 +1,10 @@
-https://www.mongodb.com/resources/languages/mern-stack-tutorial
+https://www.mongodb.com/resources/languages/mern-stack
+https://www.mongodb.com/resources/products/compatibilities/express
 
 # Architecture Pattern
 
 Three-Tier Architecture Pattern
-Layered Architecture 
+Layered Architecture
 Feature-based Structure
 
 # Folder Structure
@@ -19,7 +20,7 @@ Monorepo & Api-First Approach - Architecture style
 
 req → controller → service → model → db → service → controller → res
 
-Controllers = ONLY for handling the route
+Controllers = ONLY for handling the route (Single Responsibility Principle)
 accept the request
 call the service
 send the response
@@ -34,3 +35,21 @@ permissions / ownership checks
 complex condition checks
 transformations
 interactions between models
+
+<!-- ----------------------------------------------------------------------- -->
+
+# MERN
+
+An employee database
+
+React
+- Router
+
+Mongo
+- mongodb — driver that allows Node.js applications to connect to the database and work with data
+- Add Schema using mongoose
+- Converts BSON to JSON
+- returnedObject.id = returnedObject._id.toString();
+- Link info who created like
+- connect something to the user like note app in the mongo, like the thing this user is created
+  or this thing is realted to this user

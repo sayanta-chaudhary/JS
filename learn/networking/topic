@@ -1,0 +1,32 @@
+# Terms
+Protocol:
+Throughput: The actual data transfer rate observed in a network
+# Network: A collection of interconnected devices that can communicate with each other
+# Node: Any device connected to a network (e.g., computer, printer, router)
+# Bandwidth: The maximum rate of data transfer across a network path
+Topology: The arrangement of devices in a network (e.g., star, mesh, bus, ring)
+
+Network Models:
+- OSI Model
+- TCP/IP Model
+
+Routing Protocols: Learn about protocols such as RIP, OSPF, and BGP that determine the best path for data
+Switching Concepts: Understand how switches operate to forward data within a LAN
+
+# Network Devices:
+# - Modem: Modulator & Demodulator, Converts digital signals to analog and vice versa
+# - Access Point: Works like a Wi-Fi extender but also creates a new Wi-Fi network to connect wireless devices to a wired network
+# - Hub: Dumb, because it sends data to all devices without any traffic management
+# - Switch: Smart, as it uses MAC addr to send data only to the intended device, managing traffic efficiently
+# ![](https://www.cisco.com/c/dam/assets/swa/img/anchor-info/what-is-network-switching-628x353.png)
+
+# Network Troubleshooting:
+# Common Tools: Familiarize yourself with tools such as ping, traceroute, netstat, and Wireshark
+# Troubleshooting Methodologies: Learn systematic approaches to diagnosing and resolving network issues
+
+Network Protocols:
+TCP/UDP: Understand the differences between TCP (reliable, connection-oriented) and UDP (fast, connectionless) protocols
+DNS: Learn how the Domain Name System translates domain names into IP addresses
+
+Bandwidth: Understand how data transmission rates are measured and managed
+Quality of Service (QoS): Learn how QoS policies prioritize certain types of network traffic to ensure performance

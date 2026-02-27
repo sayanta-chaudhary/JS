@@ -1,0 +1,25 @@
+#
+![](https://i.imgur.com/d0JoAew.png)
+ip: Find
+TCP: Talk # Reliable, ordered, slower, uses checksum for error detection
+Flow Control: Sliding window regulates data flow between sender and receiver
+Windowing = Flow control mechanism
+
+URL: https://youtu.be/3LO0g4zqgFo?si=pLYWMQVbr4CbtpJh
+
+# Client >> HTTP << Server
+
+HTTP Methods:
+https://datatracker.ietf.org/doc/html/rfc2616
+- GET PUT POST DELETE HEAD OPTIONS
+
+# HTTP Status Codes:
+# https://www.restapitutorial.com/httpstatuscodes
+# - 200 OK
+# - 301 Moved Permanently (for redirection)
+# - 404 Not Found
+# - 500 Internal Server Error
+
+HTTP Headers: Metadata
+- Request Headers
+- Response Headers

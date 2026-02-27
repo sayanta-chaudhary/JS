@@ -1,8 +1,8 @@
 import express from "express";
 import jwt from "jsonwebtoken";
 const blogsRouter = express.Router();
-import Blog from "../models/blog.js";
-import User from "../models/user.js";
+import Blog from "../models/Blog.js";
+import User from "../models/User.js";
 import middleware from "../utils/middleware.js";
 
 const getTokenFrom = (request) => {

@@ -1,0 +1,76 @@
+#
+https://youtu.be/3b_TAYtzuho?si=mcu_KDIUPBgGhdkG
+Open Systems Interconnect Model
+"Please Do Not Throw, Sausage Pizza Away"
+# Down Encapsulating P-A
+# Up   Decapsulating A-P
+
+![](https://media.geeksforgeeks.org/wp-content/uploads/20240615134832/OSI-vs-TCP.png)
+![](https://i.imgur.com/Jrh4HI9.png)
+Each Layer = Pkg of Protocols
+
+Application Layer:
+HTTP: ?
+# DNS: https://youtu.be/mpQZVYPuDGU?si=LJGde0MjTYjKCoN6
+# - ![](https://i.imgur.com/RgZrSn6.png)
+Web Servers: How Nginx handles web requests
+APIs (Application Programming Interfaces): Focus on RESTful APIs and JSON
+ - APIs Communication Technologies: REST, GraphQL, gRPC, WebRTC
+Client-Server Architecture:
+ - Request/Response Model: How clients send requests to servers and receive responses
+ - Web Sockets & Real-time Communication
+ - OAuth
+
+Presentation Layer:
+- SSL/TLS: Transport Layer Security ?
+
+Session Layer:
+- NetBIOS, SMB
+- Authentication - Who are you?
+- Authorization  - What are you allowed to do?
+
+Transport Layer:
+- Flow control, Error control
+TCP, UDP
+TFTP ?
+
+Network Layer:
+- IP, ICMP
+Path determination:
+- OSPF
+- BGP
+- IS-IS
+
+# Data Link Layer:
+# - MAC of NIC
+
+# Physical Layer:
+# - Transmits raw data (Ethernet cables, Wi-Fi)
+
+
+# Terms 
+Rendering Strategies:
+Client-Side Rendering (CSR): Browser builds the page. Fast updates, slower initial load
+- React, Vue, Angular, Svelte
+
+Server-Side Rendering (SSR): Server builds the page. Fast initial load, slower updates
+- Languages: JS, Python, Ruby, PHP
+- Framework: Next.js, Nuxt.js, Ruby on Rails, Express.js
+
+Static Site Generation (SSG): Pre-built pages. Very fast, but content can be outdated
+- Languages: HTML, JS, Markdown
+- Framework: Hugo, Next.js (with static export)
+
+Incremental Static Regeneration (ISR): Pre-built pages updates periodiclly. Fast, fresher content
+- Languages: JS
+- Framework: Next.js (specifically supports ISR)
+
+Stateful: Remembers user context for personalization; more complex to manage
+Stateless: Each request is independent; no stored context. Easier to scale
+
+# Vocab
+Adhere: To stick to something or to follow rules or standards
+Duplex: Capability of a communication
+Pragmatic: Focused on practical results rather than just theories
+Essence: Nature or core characteristic of something
+Havoc: Chaos

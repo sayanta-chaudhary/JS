@@ -60,8 +60,7 @@ export default function Gallery() {
 
 // Conditional ? Rendering : ---------------------------------------------------
 
-// import { useState } from "react";
-// import { useEffect } from "react";
+// import { useState, useEffect } from "react";
 //
 // export default function App() {
 //   const [isLoading, setIsLoading] = useState(true);

@@ -1,0 +1,15 @@
+Giving a component multiple state variables
+- More than one state variable. internally, React matches them up by their order
+
+How does React know which state to return?
+- Hooks rely on a stable call order on every render of the same component
+  Hooks will always be called in the same order
+- internally, React holds an array of state pairs for every component
+  it also maintains the current pair index, which is set to 0 before rendering
+  Each time you call useState, React gives you the next state pair and increments the index
+  React Hooks: Not Magic, Just Arrays
+- Always call useState in the same order, or React gets confused
+
+State is isolated and private
+- State is private to the component. if you render it in two places, each copy gets its own state
+- This lets you add state to any component or remove it without impacting the rest of the components

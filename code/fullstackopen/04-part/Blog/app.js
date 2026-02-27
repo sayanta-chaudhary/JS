@@ -13,7 +13,7 @@ mongoose.set("strictQuery", false);
 
 logger.info("🔌 Connecting... to Database");
 mongoose
-  .connect(config.MONGODB_URI)
+  .connect(config.MONGODB_URL)
   .then(() => logger.info("🟢 Connected to MongoDB"))
   .catch((error) => logger.error("❌ Error connecting to MongoDB:", error.message),);
 

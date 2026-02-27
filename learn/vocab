@@ -1,0 +1,65 @@
+# https://www.programmingforbeginnersbook.com/blog/expand_your_programming_vocabulary
+# https://www.computerhope.com/jargon/program.htm
+# https://www.cs.utexas.edu/~novak/cs307vocab.html
+
+Edge case: an unusual situation that tests the limits of a program
+Elements: a fundamental or essential part of something
+Subscript: the index used to access a specific element within an array or similar data structure
+
+pagination: the process of dividing a large set of data into smaller
+mnemonically: using a trick or method to help you remember something more easily
+
+
+# Term
+Sprites: movable computer graphics often used in 2D games or animations, controlled by code
+https://youtu.be/F4lptpFSB_I?si=vwPnSobxsEEe7BNa
+
+Agile software development: process where developers build software in stages
+dividing their work into short bursts called sprints. This helps to keep code simple and ensure teams can test it frequently
+https://youtu.be/QLvBK9stdoM?si=zXBjPpgZBuaDftQJ
+
+AJAX: method for getting data from a web server that uses XML JavaScript and HTML
+https://youtu.be/wdvruTuWvW8?si=CmukY81rbl-PvZAR
+
+Token: smallest individual unit in a program, often referring to a portion of a much larger data piece. 
+Ex: if a person’s name is John Thomas Wood, it can be broken into tokens; ‘John’, ‘Thomas’ and ‘Wood’
+The programmer can then go on to use only the portion or token they wish to. Tokens are classified into keywords, identifiers, literals, operators, and punctuators
+
+# Parser: a component of a compiler or interpreter that analyzes the structure of a piece of code according to the rules of a formal grammar
+
+Identifiers: are the names that identify the elements in a program - like variables functions classes or modules
+that helps programmers refer to them easily in their code
+https://youtu.be/QPNRjjIaVLs?si=BKRMirbTDUTPAhLO
+naming rules
+
+
+# PENDING
+Heterogeneous ? 
+
+JAMStack ?
+
+PEMDAS - Parentheses Exponent Multiplication Division Addition and Subtraction
+mnemonic for the order of operations in a mathematical equation, computers also follow this same order
+
+DSL/Cable ?
+
+Inductive reasoning ?
+Datum ?
+Sitemap ?
+
+# https://www.cs.utexas.edu/~novak/cs307vocab.html
+
+ambiguity: a case in which more than one meaning might be assigned to a language construct
+# the type of meaning in which a phrase, statement, or resolution is not explicitly defined, making for several interpretations
+
+# argument: parameter
+
+association list: a list of pairs, where each pair consists of a key and a corresponding value
+# association: a group of people organized for a joint purpose
+
+auxiliary function: a function written to perform some task for, or do the work of, another function
+
+# Term
+base case: a simple case (of a recursive problem) that can be solved directly without further recursion ?
+call by reference: a form of parameter transmission in which the address of the parameter is transmitted to a procedure. Specified by var parameters in Pascal ?
+call by value: a form of parameter transmission in which a copy of the value of a parameter is sent to a procedure ?

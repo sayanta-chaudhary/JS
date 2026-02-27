@@ -1,7 +1,6 @@
 https://www.deepintodev.com/blog/how-react-works-behind-the-scenes
 https://youtu.be/7YhdqIR2Yzo?si=UAkZFaKV2QiVaT-m
-
-Why useState instead of just variables?
+https://youtu.be/i793Qm6kv3U?si=BSiEaj6bfQaLAPA0
 
 # Virtual DOM: Just JavaScript objects
 - Why the real DOM is slow for frequent updates: When you make changes to the real DOM

@@ -1,0 +1,44 @@
+#
+# https://youtu.be/_lh5DpKq3Ts?si=kmXut6uhEdXm_b8e
+# https://youtu.be/Kp2bYWRQylk?si=IqOudFQHvqUr2d5o
+
+Discrete Mathematics:
+- Logic and Proof Techniques
+  - https://youtu.be/V5tUc-J124s?si=SD8juaiwUjd9weEg
+- Set Theory: deals with collections of objects
+- Combinatorics: Counting principles, permutations and combinations
+- Number Theory: studies the properties and relationships of integers, which are wh0le numbers and their negatives
+  and explores number patterns and properties, like solving puzzles with whole numbers to understand their unique interactions
+  Ex: Prime numbers tend to have larger gaps between them as the numbers themselves get larger
+- Modular Arithmetic: handles remainders after division
+- Graph Theory: studies how objects (nodes) connect through links (edges), useful for modeling networks and solving path problems
+  - https://youtu.be/LFKZLXVO-Dg?si=cNhQr0i3jixmEfaF
+
+Permutation - each of several possible ways in which a set or number of things can be ordered or arranged
+
+Linear Algebra:
+- Vectors and Matrices: Vector spaces, basis, linear transformations, matrix operations, and determinants
+- Matrix Operations: adding, multiplying and finding inverses of matrices
+
+Algorithms and Complexity:
+- Algorithm Analysis: Time complexity, Big O notation and space complexity
+- Algorithm Design Techniques: Greedy algorithms, dynamic programming, divide and conquer and backtracking
+
+Mathematical Operations:
+- Exponential
+- Logarithm
+- Modulus
+- Factorial
+
+# Probability: Bayes' theorem?
+# Statistics: deals with collecting, analyzing and interpreting data to make informed decisions
+
+# Calculus: deals with changes and motion
+# - dy/dx = derivative?
+# - https://youtu.be/TzDhdvVg9_c?si=K169_ZtHhRbEJwPk
+# - https://www.youtube.com/watch?v=2n41IqOMbdc&list=PLax7HQMX26zw6-Vnfe1hxlguec_hQO2De
+
+# Theory of Computation
+# - https://www.cs.cmu.edu/~wing/publications/Wing06.pdf
+
+# Game Theory: studies strategic decision-making to maximize outcomes considering others' choices

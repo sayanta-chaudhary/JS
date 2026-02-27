@@ -1,0 +1,100 @@
+#
+https://edu.anarcho-copy.org/Algorithm/grokking-algorithms-illustrated-programmers-curious.pdf
+
+# https://youtu.be/kS_gr2_-ws8?si=-f80Oy4wVyQ7bzAm
+https://www.bigocheatsheet.com
+- https://zerotomastery.io/cheatsheets/big-o-cheat-sheet
+- https://www.codecademy.com/resources/docs/general/big-o-notation
+https://www.toptal.com/developers/sorting-algorithms
+https://github.com/msambol/dsa
+
+# Algo
+https://youtu.be/Uym4-KhP3Lc?si=dy9TADTnSNgVs8KQ # 3 Types of Algo
+
+"Code is just the surface; The real problem is how you handle data"
+"Stop worring about writing the perfect code, focus on organizing the data"
+- Think about time and space complexity
+- Ask yourself how efficient is this
+- Choose the right DS
+- Optimize problem solving approach
+- Don't solve same problem multiple times
+- Know how the data moves through the system
+
+# Big-Order of growth, way to formalize fuzzy counting
+ O  - Order of complexity
+(n) - Number of inputs
+Constants and smaller terms don't matter, they become insignificant for large inputs
+
+# Terms
+Quadratic T complexity   O(n²)
+Linear T complexity      O(n)
+Logarithmic T complexity O(log n)
+Constant T complexity    O(1)
+
+What Can Cause Time in a Function ?
+- I/O operations: Reading/writing data takes time
+- Deep Recursion can significantly increase execution time
+- Loops: (for, while)
+- Function calls: Each call adds overhead
+- Comparisons: (>,<,!=)
+- Number of Operations:  (+,-,*,/)
+- Data Structure Operations..
+- Algorithmic Complexity..
+
+Space complexity measures an algorithm's temporary RAM usage
+What Causes Space Complexity ?
+- DS
+- Auxiliary Space: Extra memory used for temporary data structures, buffers, or additional variables during computation
+- Function Calls
+- Dynamic Allocations: malloc ?
+- Variables
+
+# Terms / Vocab
+Traversed: travel across or through
+Hash Table: low-level, manual setup, flexible but requires more work
+- Hash Map: high-level, automated, with resizing and often thread-safe
+Modular arithmetic: system of arithmetic for integers where numbers wrap around after reaching a certain value called the modulus
+- Like a wall clock, after 12, the numbers wrap around to 1, so 14 o`clock == 2 o`clock in modulo 12
+Thread-safe: handles multiple tasks at once without errors
+Heap: of stones
+
+Hash: way to convert data into a fixed-size value for quick access
+# Hash: chop or mix things up
+# Hashmap aka Dictionaries
+hash function == index
+collision
+can't change the key aka immutable data type
+
+
+# - Arrays        Read: O(1), Ins: O(n), Del: O(n)
+# - Linked Lists  Read: O(n), Ins: O(1), Del: O(1)
+# - stacks & queue
+# - hash tables & hash maps
+# - trees
+- graphs
+
+> AL
+- sorting algorithms
+- searching algorithms
+- list algorithms
+- recursion
+- graph algorithms : bfs / dfs
+- dynamic programming
+- common problem-solving patterns
+
+insertion
+selection
+bubble
+shell
+merge
+heap
+quick
+quick3
+
+linear
+binary
+hashing
+dfs/bfs
+jump
+exponential
+interpolation

@@ -1,0 +1,25 @@
+GET http://localhost:5050/records/
+
+###
+POST http://localhost:5050/records/
+Content-Type: application/json
+
+{
+  "name": "Sayanta",
+  "position": "Backend",
+  "level": "Mid-Lvl"
+}
+
+###
+PATCH http://localhost:3001/records/api/
+Content-Type: application/json
+
+{
+  "name": "Sayanta",
+  "position": "Backend",
+  "level": "Senior"
+}
+
+###
+DELETE http://localhost:3001/records/api/
+Content-Type: application/json

@@ -1,0 +1,24 @@
+#
+Become a Problem Solver by Writing Code
+"In programming, you don’t need to know everything. You just need to know where to find it, when you need it"
+
+# Theory of Computation - Computational Thinking
+# - https://www.cs.cmu.edu/~wing/publications/Wing06.pdf
+
+Understand the problem - try Visualization
+- Rubber duck debugging - don't be the knowledge container
+https://youtu.be/KFw20grap2E?si=hQKcYYGDMfNgRk7d
+
+Divide the problem - Decomposition
+
+Work on some algo - Thinking algorithmically
+- DFS/BFS
+
+Thinking more methodically
+- What is it going to do ? - Know the action
+- 1st build MVP (minimum viable product) then iterate..
+
+https://youtu.be/rWMuEIcdJP4?si=NQ9cTb_7fLBofXnH
+https://youtu.be/kQUwImj32PA?si=9R3TLSaHdkmSjvUo
+- Test Cases ?
+- The Black Box Method

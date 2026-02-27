@@ -1,0 +1,65 @@
+# Are You SUCK at Subnetting?
+https://youtu.be/26WvISI14g0?si=N4jX1e05egY_mk4j # WVFRM
+Ethernet IP TCP/UDP DNS NAT DHCP # https://youtu.be/jjKFXlFNR4E?si=zGo79mufsm3A5M6C
+# https://data.iana.org/TLD/tlds-alpha-by-domain.txt
+
+IP Addressing
+- IANA and ICANN allocate IP addresses; GoDaddy brokers domain and IP registrations
+- ISP > Router > NAT: Allows multiple devices on a local network to share a single public IP addr to access the internet
+- 11:20 # Easiest way to convert Binary to Decimal
+- https://youtu.be/2-i5x8KCfII?si=ubp1U02nGcr-Q22c
+IPv4 Classes: CBA, 4.3 bil IPs: 2^32 = 4,294,967,296 
+- ![](https://i.imgur.com/KLKYNPU.png) there are IPs we can't use, they gave away too many IPs
+- Class C: More networks, fewer hosts per network
+- Class A: Fewer networks, but large number of hosts per network
+- 127.0.0.1: Loopback address for testing; packets return to the local machine
+RFC 1918: Internet's giant band-aid, helped extend IPv4's life by using private IPs to save public ones
+
+Classful vs Classless Addressing ?
+- 192.168.1.0/24 means 24 bits are for the network, leaving 8 bits for 256 host addresses (0-255)
+
+IPv6: 128 bit hexadecimal address
+- ![](https://i.imgur.com/WHccm1Z.png)
+
+# CIDR notation: An alternative way to represent a subnet mask (e.g., /24 instead of 255.255.255.0) ?
+Classful Networks A, B, C,D,E  Gone now use CIDR
+- CIDR (Classless Inter-Domain Routing): A method for allocating IP addresses and IP routing
+
+Default Gateway: Home > Default Gateway < Internet
+DHCP (Dynamic Host Configuration Protocol): Assigns IPs dynamically to devices on a network
+- Lease Time: Renews at 50% (T1)
+
+Subnetting: A division of an IP network into smaller, manageable networks
+- Subnet: Each router can handle its own subnet (like 192.168.1.x for one building, 192.168.2.x for another)
+- Subnet Mask: 32-bit number that divides an IP address into network and host parts
+# - https://youtu.be/s_Ntt6eTn94?si=8uGIpTCygN5T0zhr
+- ![](https://i.imgur.com/mSU0Lin.png)
+- Understanding how to divide networks into subnets ?
+- Calculating subnet masks and ranges ?
+
+VLSM (Variable Length Subnet Masking): Allows different subnets to have different subnet masks
+# 192.168.32.5
+# 255.255.254.0 - if 254 changed then why 32 don't changed ? 
+
+Routing Protocols:
+
+
+# Questions
+how do i paid for website domain
+# who issue ip addresses on internet (the arpanet) - IANA
+who issue the ssl certificate ?
+what is resolver
+A resolver converts domain names (like example.com) into IP addresses (like 192.0.2.1) so computers can find the correct server.
+
+# like how godaddy provide me a doamin, what's the business model
+Domain Registrars = GoDaddy
+Registries = .com, .org, or .net
+
+Domain Names: ICANN (Internet Corporation for Assigned Names and Numbers)
+IP Addresses: IANA (Internet Assigned Numbers Authority): IANA allocates IP address blocks to RIRs (Regional Internet Registries) ?
+# RIRs - ISPs - GoDaddy
+
+# Vocab
+ARPANET - Packet Switching 
+Contiguous - sharing a common border; touching
+When you buy web hosting or use GoDaddy’s services, they may lease IP addresses from their infrastructure or ISP partners
