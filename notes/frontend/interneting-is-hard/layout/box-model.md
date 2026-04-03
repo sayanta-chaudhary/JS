@@ -1,3 +1,4 @@
+![](https://web.dev/static/learn/css/layout/image/a-diagram-showing-the-di-4e46d3ae32e54_856.png)
 Everything is a box. Boxes can be inline or block-level
 Start looking at the websites you visit through the lens of the CSS box model
 They also have seemingly arbitrary rules about how they interact
@@ -5,7 +6,7 @@ Margin doesn't count as part of the element's size, regardless of the box-sizing
 
 # Gotchas
 
-<!-- `box-sizing: border-box` padding / border are separate from the content -->
+`box-sizing: border-box` padding / border are separate from the content
 Vertical Margin Collapse
 Aligning Boxes Horizontally
 Centering with Auto-Margins

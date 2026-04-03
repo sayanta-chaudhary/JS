@@ -34,5 +34,5 @@ Reconciliation: You only change the words you edited without rewriting the entir
 Reconciliation > Comparison > Diffing > Update DOM only what's changed instead of re-rendering everything
 
 # Terms
+
 Derived state: State that can be computed from other state or props
-Business logic: The rules that define how your application works / what it should do

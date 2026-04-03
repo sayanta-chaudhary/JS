@@ -7,33 +7,35 @@ https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/DO
 - You can use DOM methods to listen to user events and manipulate the DOM by
   selecting, creating, updating, and deleting elements in the user interface
 
+## Odin Project
+
+- When your HTML code is parsed by a web browser, it is converted to the DOM
+  One of the primary differences is that these nodes are JS objects that have many properties & methods attached to them
+- Keep in mind that the JavaScript does not change your HTML file, but the DOM
+  your HTML file will look the same, JavaScript changes what the browser renders
+
 Q: Why does the browser convert HTML into the DOM?
 Q: What exactly updates when the DOM is manipulated?
 Q: textContent vs innerHTML?
-
-<!-- ## Odin Project -->
-<!-- - When your HTML code is parsed by a web browser, it is converted to the DOM -->
-<!--   One of the primary differences is that these nodes are JS objects that have many properties & methods attached to them -->
-<!-- - Keep in mind that the JavaScript does not change your HTML file, but the DOM -->
-<!--   your HTML file will look the same, JavaScript changes what the browser renders -->
 
 ## Traversing the DOM
 
 - `getElementsBy*` - limited to tag, class or id (use only for auto-updating live collections)
 - `querySelector("#id")` - CSS selectors .class, div, [attr]
-  - You can also use relational selectors (firstElementChild or lastElementChild)
-    So you can identify certain node based on its relationships to the nodes around it
+  You can also use relational selectors (firstElementChild or lastElementChild)
+  So you can identify certain node based on its relationships to the nodes around it
 
 <!-- - el.getAttribute("data-user") -->
 <!-- - el.setAttribute("data-role", "admin") - Overwrites existing values, so use carefully -->
 
 # Lifecycle of DOM Manipulation
 
-- Create element `const header = document.createElement("h1")`
-- Set content, attributes, properties, classes, styles `el.textContent, el.classList, el.style`
+- Create element `const el = document.createElement("h1")`
+- Set content, attributes, properties, classes, styles
+  `el.textContent, el.setAttribute("src", "img.jpg"), el.classList, el.style`
 - Add event listeners `el.addEventListener("click", () => {}) / el.removeEventListener("click", {})`
-- Select element to attach to `document.body or document.querySelector("#container")`
-- Attach to the DOM `container.append(div)` prepend(), before(), after(), append()
+- Select element to attach `document.body or document.querySelector("#container")`
+- Attach to the DOM `container.append(el)` prepend(), before(), after(), append()
 - Element appears on the page (DOM is updated)
 
 ```js
@@ -59,7 +61,7 @@ Element: Only actual HTML tags: <html> <head> <title> <body> <h1> <div> <p>
 const container = document.createElement("div");
 container.classList.add("content");
 container.textContent = "wake up, Neo!";
-document.body.appendChild(container);
+document.body.append(container);
 
 const h1 = document.createElement("h1");
 h1.textContent = "hey i'm blue!";

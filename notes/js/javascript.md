@@ -28,7 +28,7 @@ Object are used for:
 
 - {} Plain Object
 - [] Array
-- function
+- Function
 
 ### Special collection objects
 

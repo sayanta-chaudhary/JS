@@ -1,17 +1,16 @@
-how to check the page load time?
-how to measure query time?
+How to check the page load time?
+How to measure query time?
 
-# Frontend
+## Frontend
 
-## SEO
+Core Web Vitals
+https://pagespeed.web.dev/
 
-Google Core Web Vitals
-
-# Backend
+## Backend
 
 p90, p99 latency metrics
 profiling
 
-# Database
+## Database
 
 https://youtu.be/a4N9m480u2I?si=MYaSiu9yJWz9amKq

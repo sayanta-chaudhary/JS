@@ -1,6 +1,6 @@
 useState
 useReducer
-Context API
+Context Api
 Redux Toolkit
 Zustand
 

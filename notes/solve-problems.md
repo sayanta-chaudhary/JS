@@ -1,6 +1,6 @@
 # List real world problems
 
-Solve some societal need
+solve some societal need
 <!-- Automating repetitive manual workflows -->
 data visualization for better decision-making
 improving customer service with ai

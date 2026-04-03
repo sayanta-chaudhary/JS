@@ -3,10 +3,10 @@ Scalability
 CAP theorem
 
 https://youtu.be/lFeYU31TnQ8?si=mf0YaZje9GehNxKw
-https://youtu.be/i53Gi_K3o7I?si=8URWyTeW5sIE5tQf
 https://github.com/donnemartin/system-design-primer
 
-🔑 The Ultimate 80/20 System Design Stack
+## 80/20 System Design Stack
+
 Client
 Load Balancer
 Stateless Servers

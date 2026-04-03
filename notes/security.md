@@ -39,7 +39,6 @@ Docker security (avoid root containers)
 https://youtu.be/064yDG7Rz80?si=Pkjp8IgHhx87Fhti
 
 - CSP
-
 - HttpOnly & Secure Cookie prevent JS from reading session cookies (mitigates exfiltration)
 - Avoid client-side templating pitfalls
 - Safe rich-text workflows

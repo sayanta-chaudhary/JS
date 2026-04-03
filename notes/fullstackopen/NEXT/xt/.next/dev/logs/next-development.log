@@ -1,0 +1,500 @@
+[00:00:00.527] Server  LOG     ✓ Ready in 335ms
+[00:01:35.617] Server  ERROR   ⨯ ./Desktop/JS/notes/fullstackopen/NEXT/xt/app/page.js:1:10
+Ecmascript file had an error
+> 1 | import { useState } from "react";
+    |          ^^^^^^^^
+  2 |
+  3 | function Header({ title }) {
+  4 |   return <h1>{title ? title : "Default title"}</h1>;
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:01:36.483] Browser ERROR   uncaughtError: Error: ./Desktop/JS/notes/fullstackopen/NEXT/xt/app/page.js:1:10
+Ecmascript file had an error
+> 1 | import { useState } from "react";
+    |          ^^^^^^^^
+  2 |
+  3 | function Header({ title }) {
+  4 |   return <h1>{title ? title : "Default title"}</h1>;
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:01:36.664] Browser ERROR   ./Desktop/JS/notes/fullstackopen/NEXT/xt/app/page.js:1:10
+Ecmascript file had an error
+> 1 | import { useState } from "react";
+    |          ^^^^^^^^
+  2 |
+  3 | function Header({ title }) {
+  4 |   return <h1>{title ? title : "Default title"}</h1>;
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:01:36.664] Browser ERROR   ./Desktop/JS/notes/fullstackopen/NEXT/xt/app/page.js:1:10
+Ecmascript file had an error
+> 1 | import { useState } from "react";
+    |          ^^^^^^^^
+  2 |
+  3 | function Header({ title }) {
+  4 |   return <h1>{title ? title : "Default title"}</h1>;
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:01:37.043] Browser ERROR   ./Desktop/JS/notes/fullstackopen/NEXT/xt/app/page.js:1:10
+Ecmascript file had an error
+> 1 | import { useState } from "react";
+    |          ^^^^^^^^
+  2 |
+  3 | function Header({ title }) {
+  4 |   return <h1>{title ? title : "Default title"}</h1>;
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:02:30.542] Server  ERROR   ⨯ ./Desktop/JS/notes/fullstackopen/NEXT/xt/app/page.js:1:13
+Parsing ecmascript source code failed
+>  1 | "use client"`
+     |             ^
+>  2 | import { useState } from "react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  3 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  4 | function Header({ title }) {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  5 |   return <h1>{title ? title : "Default title"}</h1>;
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  6 | }
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  7 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  8 | export default function HomePage() {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  9 |   const names = ["Ada Lovelace", "Grace Hopper", "Margaret Hamilton"];
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 10 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 11 |   const [likes, setLikes] = useState(0);
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 12 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   function handleClick() {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |     setLikes(likes + 1);
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 |   }
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 16 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 17 |   return (
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 18 |     <div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 19 |       <Header title="Develop. Preview. Ship." />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 20 |       <ul>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 21 |         {names.map((name) => (
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 22 |           <li key={name}>{name}</li>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 23 |         ))}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 24 |       </ul>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 25 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 26 |       <button onClick={handleClick}>Like ({likes})</button>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 27 |     </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 28 |   );
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 29 | }
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 30 | 
+     | ^
+
+Unterminated template
+
+
+[00:02:30.547] Server  ERROR   ⨯ ./Desktop/JS/notes/fullstackopen/NEXT/xt/app/page.js:1:13
+Parsing ecmascript source code failed
+>  1 | "use client"`
+     |             ^
+>  2 | import { useState } from "react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  3 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  4 | function Header({ title }) {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  5 |   return <h1>{title ? title : "Default title"}</h1>;
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  6 | }
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  7 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  8 | export default function HomePage() {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  9 |   const names = ["Ada Lovelace", "Grace Hopper", "Margaret Hamilton"];
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 10 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 11 |   const [likes, setLikes] = useState(0);
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 12 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   function handleClick() {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |     setLikes(likes + 1);
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 |   }
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 16 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 17 |   return (
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 18 |     <div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 19 |       <Header title="Develop. Preview. Ship." />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 20 |       <ul>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 21 |         {names.map((name) => (
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 22 |           <li key={name}>{name}</li>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 23 |         ))}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 24 |       </ul>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 25 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 26 |       <button onClick={handleClick}>Like ({likes})</button>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 27 |     </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 28 |   );
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 29 | }
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 30 | 
+     | ^
+
+Unterminated template
+
+
+[00:02:30.656] Browser ERROR   uncaughtError: Error: ./Desktop/JS/notes/fullstackopen/NEXT/xt/app/page.js:1:13
+Parsing ecmascript source code failed
+>  1 | "use client"`
+     |             ^
+>  2 | import { useState } from "react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  3 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  4 | function Header({ title }) {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  5 |   return <h1>{title ? title : "Default title"}</h1>;
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  6 | }
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  7 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  8 | export default function HomePage() {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  9 |   const names = ["Ada Lovelace", "Grace Hopper", "Margaret Hamilton"];
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 10 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 11 |   const [likes, setLikes] = useState(0);
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 12 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   function handleClick() {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |     setLikes(likes + 1);
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 |   }
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 16 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 17 |   return (
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 18 |     <div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 19 |       <Header title="Develop. Preview. Ship." />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 20 |       <ul>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 21 |         {names.map((name) => (
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 22 |           <li key={name}>{name}</li>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 23 |         ))}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 24 |       </ul>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 25 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 26 |       <button onClick={handleClick}>Like ({likes})</button>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 27 |     </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 28 |   );
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 29 | }
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 30 | 
+     | ^
+
+Unterminated template
+
+
+[00:02:30.842] Browser ERROR   ./Desktop/JS/notes/fullstackopen/NEXT/xt/app/page.js:1:13
+Parsing ecmascript source code failed
+>  1 | "use client"`
+     |             ^
+>  2 | import { useState } from "react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  3 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  4 | function Header({ title }) {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  5 |   return <h1>{title ? title : "Default title"}</h1>;
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  6 | }
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  7 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  8 | export default function HomePage() {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  9 |   const names = ["Ada Lovelace", "Grace Hopper", "Margaret Hamilton"];
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 10 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 11 |   const [likes, setLikes] = useState(0);
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 12 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   function handleClick() {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |     setLikes(likes + 1);
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 |   }
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 16 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 17 |   return (
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 18 |     <div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 19 |       <Header title="Develop. Preview. Ship." />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 20 |       <ul>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 21 |         {names.map((name) => (
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 22 |           <li key={name}>{name}</li>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 23 |         ))}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 24 |       </ul>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 25 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 26 |       <button onClick={handleClick}>Like ({likes})</button>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 27 |     </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 28 |   );
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 29 | }
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 30 | 
+     | ^
+
+Unterminated template
+[00:02:30.842] Browser ERROR   ./Desktop/JS/notes/fullstackopen/NEXT/xt/app/page.js:1:13
+Parsing ecmascript source code failed
+>  1 | "use client"`
+     |             ^
+>  2 | import { useState } from "react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  3 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  4 | function Header({ title }) {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  5 |   return <h1>{title ? title : "Default title"}</h1>;
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  6 | }
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  7 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  8 | export default function HomePage() {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  9 |   const names = ["Ada Lovelace", "Grace Hopper", "Margaret Hamilton"];
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 10 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 11 |   const [likes, setLikes] = useState(0);
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 12 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   function handleClick() {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |     setLikes(likes + 1);
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 |   }
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 16 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 17 |   return (
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 18 |     <div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 19 |       <Header title="Develop. Preview. Ship." />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 20 |       <ul>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 21 |         {names.map((name) => (
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 22 |           <li key={name}>{name}</li>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 23 |         ))}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 24 |       </ul>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 25 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 26 |       <button onClick={handleClick}>Like ({likes})</button>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 27 |     </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 28 |   );
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 29 | }
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 30 | 
+     | ^
+
+Unterminated template
+[00:02:35.219] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:36.660] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:37.230] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:37.431] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:37.611] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:37.813] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:37.974] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:38.135] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:38.297] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:38.490] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:38.644] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:38.820] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:38.998] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:39.426] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:39.820] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:40.232] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:40.702] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:41.134] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:41.511] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:43.169] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:44.501] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:45.895] Server  LOG     ✓ Compiled in 13ms
+[00:02:48.418] Server  LOG     ✓ Compiled in 4ms
+[00:02:51.758] Server  LOG     ✓ Compiled in 4ms
+[00:03:14.685] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:45.108] Server  LOG     ✓ Compiled in 7ms
+[00:07:50.093] Server  ERROR   ⨯ Error: The default export is not a React Component in "/layout"
+[00:07:50.321] Server  ERROR   ⨯ Error: The default export is not a React Component in "/layout"
+[00:07:50.475] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/layout"
+[00:08:08.892] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:14.361] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:16.036] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:16.285] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:16.615] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:50.517] Browser ERROR   ./Desktop/JS/notes/fullstackopen/NEXT/xt/app/layout.js:1:44
+Parsing ecmascript source code failed
+> 1 | export default function Layout({ children }: { children: React.ReactNode }) {
+    |                                            ^
+  2 |  return (
+  3 |    <html>
+  4 |      <body>
+
+Expected ',', got ':'
+[00:08:51.517] Browser ERROR   ./Desktop/JS/notes/fullstackopen/NEXT/xt/app/layout.js:1:44
+Parsing ecmascript source code failed
+> 1 | export default function Layout({ children }: { children: React.ReactNode }) {
+    |                                            ^
+  2 |   return (
+  3 |     <html>
+  4 |       <body>
+
+Expected ',', got ':'
+[00:08:59.662] Server  LOG     ✓ Compiled in 20ms
+[00:08:59.886] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:12.517] Browser ERROR   ./Desktop/JS/notes/fullstackopen/NEXT/xt/app/layout.js:1:13
+Parsing ecmascript source code failed
+> 1 | import page "./page.js"
+    |             ^^^^^^^^^^^
+  2 | export default function Layout({ children }) {
+  3 |   return (
+  4 |     <html>
+
+Expected ',', got 'string literal ("./page.js", "./page.js")'
+[00:09:13.516] Browser ERROR   ./Desktop/JS/notes/fullstackopen/NEXT/xt/app/layout.js:1:13
+Parsing ecmascript source code failed
+> 1 | import page "./page.js"
+    |             ^^^^^^^^^^^
+  2 |
+  3 | export default function Layout({ children }) {
+  4 |   return (
+
+Expected ',', got 'string literal ("./page.js", "./page.js")'
+[00:09:18.736] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:24.517] Browser ERROR   Functions are not valid as a React child. This may happen if you return %s instead of <%s /> from render. Or maybe you meant to call this function rather than return it.
+  <%s>{%s}</%s> HomePage HomePage body HomePage body
+[00:09:29.633] Server  ERROR   Functions are not valid as a React child. This may happen if you return HomePage instead of <HomePage /> from render. Or maybe you meant to call this function rather than return it.
+[00:09:29.709] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:29.709] Browser ERROR   Functions are not valid as a React child. This may happen if you return %s instead of <%s /> from render. Or maybe you meant to call this function rather than return it.
+  <%s>{%s}</%s> HomePage HomePage body HomePage body
+[00:09:29.771] Server  ERROR   Functions are not valid as a React child. This may happen if you return HomePage instead of <HomePage /> from render. Or maybe you meant to call this function rather than return it.
+[00:09:29.849] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:29.849] Browser ERROR   Functions are not valid as a React child. This may happen if you return %s instead of <%s /> from render. Or maybe you meant to call this function rather than return it.
+  <%s>{%s}</%s> HomePage HomePage body HomePage body
+[00:09:29.975] Server  ERROR   Functions are not valid as a React child. This may happen if you return HomePage instead of <HomePage /> from render. Or maybe you meant to call this function rather than return it.
+[00:09:30.112] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:30.112] Browser ERROR   Functions are not valid as a React child. This may happen if you return %s instead of <%s /> from render. Or maybe you meant to call this function rather than return it.
+  <%s>{%s}</%s> HomePage HomePage body HomePage body
+[00:09:30.133] Server  ERROR   Functions are not valid as a React child. This may happen if you return HomePage instead of <HomePage /> from render. Or maybe you meant to call this function rather than return it.
+[00:09:30.209] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:30.209] Browser ERROR   Functions are not valid as a React child. This may happen if you return %s instead of <%s /> from render. Or maybe you meant to call this function rather than return it.
+  <%s>{%s}</%s> HomePage HomePage body HomePage body
+[00:09:46.631] Server  ERROR   Functions are not valid as a React child. This may happen if you return HomePage instead of <HomePage /> from render. Or maybe you meant to call this function rather than return it.
+[00:09:46.734] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:47.516] Browser ERROR   Functions are not valid as a React child. This may happen if you return %s instead of <%s /> from render. Or maybe you meant to call this function rather than return it.
+  <%s>{%s}</%s> HomePage HomePage body HomePage body
+[00:09:57.159] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:23.150] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:23.515] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:23.933] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:59.745] Server  ERROR   ⨯ ReferenceError: children is not defined
+[00:10:59.760] Server  ERROR   ⨯ ReferenceError: children is not defined
+[00:10:59.892] Browser ERROR   uncaughtError: ReferenceError: children is not defined
+[00:11:03.796] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:11.989] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:12.121] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:12.449] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:15.987] Server  LOG     ✓ Compiled in 57ms
+[00:11:53.335] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:53.864] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:54.056] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

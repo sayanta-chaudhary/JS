@@ -7,8 +7,7 @@ WCAG Contrast Ratio 4.5:1
 
 # Pick Colors
 
-https://online.fliphtml5.com/uejlb/wnsd/
-https://youtu.be/vvPklRN0Tco?si=stySvSbl-XsJjTSD
+Primary, Secondary & Tertiary
 https://tweakcn.com/editor/theme
 https://colorffy.com/dark-theme-generator <!-- Pirmary generator -->
 https://huemint.com/website-monochrome/
@@ -22,3 +21,5 @@ https://colorhunt.co/
 
 - Professionals rarely use pure white/black everywhere
 - Almost everything in an interface is grey
+
+diff between tint, tone, shade, Color schema
